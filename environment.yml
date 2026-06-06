@@ -1,0 +1,14 @@
+name: bike-regression
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pandas=2.3.3
+  - numpy=2.3.5
+  - matplotlib=3.10.6
+  - scikit-learn=1.7.2
+  - seaborn=0.13.2
+  - pip:
+    - tensorflow==2.20.0
+    - imbalanced-learn==0.14.0
